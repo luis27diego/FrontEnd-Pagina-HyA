@@ -59,7 +59,7 @@ const AuthForm = ({ onLogin }) => {
         } else {
           if (data.rol === 'admin') {
             onLogin(); // Llama a onLogin aquí solo si es inicio de sesión
-            history.push('/admin'); // Redirigir solo si es un inicio de sesión y el rol es admin
+            history.push('/FrontEnd-Pagina-HyA/admin'); // Redirigir solo si es un inicio de sesión y el rol es admin
           } else {
             setError('No tienes permisos de administrador'); // Mensaje de error si no es admin
           }

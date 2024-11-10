@@ -7,7 +7,7 @@ const LogoutButton = ({ onLogout }) => {
   const handleLogout = () => {
     localStorage.removeItem('token'); // Elimina el token
     onLogout(); // Actualiza el estado en AdminPage
-    history.push('/admin'); // Redirige al login o a la página principal
+    history.push('/FrontEnd-Pagina-HyA/admin'); // Redirige al login o a la página principal
   };
 
   return (
