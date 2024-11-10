@@ -1,9 +1,4 @@
 // @ts-check
-// `@type` JSDoc annotations allow editor autocompletion and type checking
-// (when paired with `@ts-check`).
-// There are various equivalent ways to declare your Docusaurus config.
-// See: https://docusaurus.io/docs/api/docusaurus-config
-
 import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
@@ -12,25 +7,18 @@ const config = {
   tagline: 'Material de estudio colaborativo',
   favicon: 'img/favicon.ico',
 
-  // Set the production url of your site here
   url: 'https://luis27diego.github.io',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/FrontEnd-Pagina-HyA/',
 
   // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'luis27diego', // Usually your GitHub org/user name.
-  projectName: 'FrontEnd-Pagina-HyA', // Usually your repo name.
+  organizationName: 'luis27diego',
+  projectName: 'FrontEnd-Pagina-HyA',
   deploymentBranch: "gh-pages",
   trailingSlash: false,
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'es',
     locales: ['es'],
@@ -43,20 +31,8 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-
         },
-        blog: {
-          showReadingTime: false,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/FrontEnd-Pagina-HyA/luis27diego.github.io/blob/main/',
-          postsPerPage: 'ALL',
-          blogSidebarTitle: 'Artículos',
-          blogSidebarCount: 'ALL'
-        },
+        blog: false, // Desactivamos completamente el blog
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -67,7 +43,6 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
       image: 'img/logo_hya.jpg',
       navbar: {
         title: '',
@@ -77,11 +52,6 @@ const config = {
           srcDark: 'img/logo_dark.svg',
         },
         items: [
-          // {
-          //   label: 'Noticias',
-          //   to: '/blog',
-          //   position: 'left'
-          // },
           {
             label: 'Histología',
             type: 'docSidebar',
@@ -105,7 +75,7 @@ const config = {
             position: 'right',
           },
           {
-            href: 'https://github.com/HyA-FIUNER/HyA-FIUNER.github.io',
+            href: 'https://github.com/luis27diego/FrontEnd-Pagina-HyA',
             className: "header-github-link",
             position: 'right',
           },

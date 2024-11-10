@@ -43,14 +43,14 @@ function HomepageColab() {
 
   return (
     <header className={clsx(styles.heroFooter)}>
-    <div className="container">
-      <p>Este sitio es un recurso dinámico que se nutre por el conocimiento y el aporte colaborativo.</p>
-      <div className={styles.buttons}>
-        <Link className="button button--secondary button--lg" to="/blog/colaborar">
-          ¿ Cómo colaboro ?
-        </Link>
+      <div className="container">
+        <p>Este sitio es un recurso dinámico que se nutre por el conocimiento y el aporte colaborativo.</p>
+        <div className={styles.buttons}>
+          <Link className="button button--secondary button--lg" to="#">
+            ¿ Cómo colaboro ?
+          </Link>
+        </div>
       </div>
-    </div>
     </header>
   );
 }
