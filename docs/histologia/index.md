@@ -34,19 +34,19 @@ import TissueCard from '@site/src/components/TissueCard';
     [
       {
         "caption": "Porta",
-        "src": "/img/histologia/epitelial/EpSimP_porta.jpg",
+        "src": "/FrontEnd-Pagina-HyA/img/histologia/epitelial/EpSimP_porta.jpg",
       },
       {
         "caption": "x 4",
-        "src": "/img/histologia/epitelial/EpSimP_02.jpg",
+        "src": "/FrontEnd-Pagina-HyA/img/histologia/epitelial/EpSimP_02.jpg",
       },
       {
         "caption": "x 10",
-        "src": "/img/histologia/epitelial/EpSimP_10.jpg",
+        "src": "/FrontEnd-Pagina-HyA/img/histologia/epitelial/EpSimP_10.jpg",
       },
       {
         "caption": "x 40",
-        "src": "/img/histologia/epitelial/EpSimP_40.jpg",
+        "src": "/FrontEnd-Pagina-HyA/img/histologia/epitelial/EpSimP_40.jpg",
       }
     ]
   }

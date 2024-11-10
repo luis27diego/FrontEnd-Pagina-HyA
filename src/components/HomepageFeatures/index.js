@@ -7,8 +7,8 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Histología',
-    image_light: '/img/histologia_light.jpg',
-    image_dark: '/img/histologia_dark.jpg',
+    image_light: '/FrontEnd-Pagina-HyA/img/histologia_light.jpg',
+    image_dark: '/FrontEnd-Pagina-HyA/img/histologia_dark.jpg',
     description: (
       <>
         Rama de la anatomía que estudia los tejidos de animales y plantas.
@@ -18,8 +18,8 @@ const FeatureList = [
   },
   {
     title: 'Anatomía',
-    image_light: '/img/anatomia_light.jpg',
-    image_dark: '/img/anatomia_dark.jpg',
+    image_light: '/FrontEnd-Pagina-HyA/img/anatomia_light.jpg',
+    image_dark: '/FrontEnd-Pagina-HyA/img/anatomia_dark.jpg',
     description: (
       <>
         Ciencia que estudia la estructura del cuerpo.

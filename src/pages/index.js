@@ -19,8 +19,8 @@ function HomepageHeader() {
         <div className='logo_main' style={{ width: 200, height: 200, borderRadius: '50%', display: 'inline-flex' }}>
           <ThemedImage
             sources={{
-              light: '/img/logo.svg',
-              dark: '/img/logo_dark.svg',
+              light: '/FrontEnd-Pagina-HyA/img/logo.svg',
+              dark: '/FrontEnd-Pagina-HyA/img/logo_dark.svg',
             }}
             style={{
               width: 150,
