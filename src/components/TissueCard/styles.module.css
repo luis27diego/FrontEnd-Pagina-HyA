@@ -1,0 +1,114 @@
+.tissueCardContainer {
+    position: relative;
+    display: grid;
+    justify-items: center;
+    padding-bottom: 20px;
+}
+
+.tissueCard {
+    background: #fff;
+    box-shadow: 0px 14px 80px rgba(125, 125, 125, 0.5);
+    max-width: 500px;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    position: relative;
+    color: rgb(28, 30, 33);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Añade transición para suavizar el movimiento */
+}
+
+.tissueCard:hover {
+    transform: translateY(-10px); /* Mueve la tarjeta hacia arriba */
+    box-shadow: 0px 24px 100px rgba(125, 125, 125, 0.6); /* Aumenta la sombra al hacer hover */
+}
+
+.tissueCardImageContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tissueCardImage {
+    width: 100%;
+    height: 100%;
+    background-size: cover; /* Asegura que la imagen cubra el contenedor */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat;
+}
+
+.tissueCardImageDescription {
+    position: absolute;
+    color: white; /* Color del texto */
+    bottom: 45px;
+    text-align: center;
+    left: 0;
+    font-size: 14px;
+    background: rgba(0, 0, 0, 0.4);
+    height: 36px;
+    align-content: center;
+    width: 55px;
+}
+
+.tissueCardBulletsContainer {
+    position: absolute;
+    bottom: 10px; /* Ajusta según el diseño deseado */
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 5px; /* Espacio entre bullets */
+    z-index: 10; /* Asegura que los bullets estén por encima de la imagen */
+}
+
+.tissueCardBullet {
+    width: 12px; /* Tamaño del bullet */
+    height: 12px;
+    background-color: rgba(0, 0, 0, 0.5); /* Color del bullet */
+    border-radius: 50%; /* Forma redonda */
+    cursor: pointer;
+    z-index: 11; /* Asegura que el bullet activo tenga un z-index mayor que el contenedor */
+}
+
+.tissueCardActiveBullet {
+    background-color: #f3d6eb; /* Color del bullet activo */
+}
+
+
+.tissueCardDotsContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.tissueCardDot {
+    font-size: 24px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.tissueCardActiveDot {
+    color: #000; /* Color del dot activo */
+}
+
+.tissueCardDot:hover {
+    color: #666; /* Color al pasar el mouse por encima */
+}
+
+.tissueCardTitle {
+    margin: 2.5em 1.5em 1.5em 1.5em;
+}
+
+.tissueCardCategory {
+    color: #1b62d4;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.tissueCardText {
+    display: grid;
+    width: 50%;
+}
