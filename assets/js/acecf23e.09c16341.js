@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunknombre_del_sitio=self.webpackChunknombre_del_sitio||[]).push([[1903],{1912:o=>{o.exports=JSON.parse('{"blogBasePath":"/FrontEnd-Pagina-HyA/blog","blogTitle":"Blog","authorsListPath":"/FrontEnd-Pagina-HyA/blog/authors"}')}}]);
