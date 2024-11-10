@@ -52,7 +52,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/HyA-FIUNER/HyA-luis27diego.github.io/blob/main/',
+            'https://github.com/FrontEnd-Pagina-HyA/luis27diego.github.io/blob/main/',
           postsPerPage: 'ALL',
           blogSidebarTitle: 'Artículos',
           blogSidebarCount: 'ALL'
